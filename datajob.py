@@ -26,7 +26,7 @@ if page == pages[0]:
                 L’objectif de ce projet est de comprendre à l’aide des données les différents profils techniques qui se sont créés dans l’industrie de la Data. 
                 Plus exactement, nous mènerons une analyse poussée des tâches effectuées ainsi que des outils utilisés pour chaque poste afin d’établir des 
                 ensembles de compétences et outils correspondant à chaque poste du monde de la Data.
-                Ce projet s’intègre parfaitement dans notre projet professionnel. Il nous permet d’analyser, à l’aide de ce jeu de données, 
+                Il nous permet d’analyser, à l’aide de ce jeu de données, 
                 les différents métiers de la data à travers les logiciels utilisés, les études des différents profils etc. 
                 </div>''', unsafe_allow_html=True)
     '\n'
@@ -43,7 +43,9 @@ if page == pages[0]:
 
     st.header("Cadre")
     st.markdown('''<div style="text-align: justify;">
-                Le jeu de données sur lequel nous allons travailler provient d’un sondage créé et lancé en 2020 sur 171 pays. Il était destiné aux personnes inscrites sur le site Kaggle (plateforme web interactive qui propose des compétitions d'apprentissage automatique en science des données). Au total, 20 000 personnes ont été sondées. L’étude est essentiellement centrée sur le Machine Learning.
+                Le jeu de données sur lequel nous allons travailler provient d’un sondage créé et lancé en 2020 sur 171 pays. 
+                Il était destiné aux personnes inscrites sur le site Kaggle (plateforme web interactive qui propose des compétitions d'apprentissage automatique en science des données). 
+                Au total, 20 000 personnes ont été sondées. L’étude est essentiellement centrée sur le Machine Learning.
                 Nous procédons à une première analyse visuelle sur le jeu de données (à l’aide de la méthode info de pandas). 
                 </div>''', unsafe_allow_html=True)
      
@@ -61,7 +63,7 @@ if page == pages[0]:
     
     st.header("Variable cible :dart:")
     st.markdown('''<div style="text-align: justify;">
-                La variable cible de notre projet correspond aux métiers de la data dans le jeu de données, cette variable se nomme “titre’, que nous appellerons Métier, terme plus explicite. Nous étudierons les 4 métiers : 
+                La variable cible de notre projet correspond aux métiers de la data dans le jeu de données, cette variable se nomme “titre", que nous appellerons "Métier", terme plus explicite. Nous étudierons les 4 métiers : 
                 Data Scientest
                 Data Analyst
                 Machine Learning Engineer
