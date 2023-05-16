@@ -1,0 +1,6 @@
+﻿Modèle;Score train;Score test;Overfitting
+SVM;0,692;0,56;NON
+KNN;0,943;0,448;OUI
+Régression logistique;0,598;0,57;NON
+Arbre de décision;0,982;0,42;OUI
+Random Forest;0,61;0,552;NON
